@@ -5,7 +5,6 @@ RUN git clone https://github.com/hmwdt/nlp.git /data/www
 RUN pip3 install flask uwsgi paddlenlp --upgrade -i https://mirror.baidu.com/pypi/simple
 
 RUN mkdir /data/logs
-123
 
 RUN mkdir /data/service
 
